@@ -1,0 +1,29 @@
+# .gitignore
+
+# Ignore build directory
+/build/
+
+# Ignore all .o and .a files
+*.o
+*.a
+
+# Ignore all files that have ~ at the end
+*~
+
+# Ignore all .swp files
+*.swp
+
+# Ignore all .log files
+*.log
+
+# Ignore all .tar files
+*.tar
+
+# Ignore all .gz files
+*.gz
+
+# Ignore all .zip files
+*.zip
+
+# Ignore .vscode directory
+.vscode/
