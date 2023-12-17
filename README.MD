@@ -17,11 +17,11 @@ The project has the following dependencies:
 
 To build the project, navigate to the `build` directory and run `cmake ..` and `make`.
 
-\```bash
+```bash
 cd build
 cmake ..
 make
-\```
+```
 
 To build tests run cmake with "cmake -DBUILD_TESTS:BOOL=ON .." 
 
@@ -29,17 +29,17 @@ To build tests run cmake with "cmake -DBUILD_TESTS:BOOL=ON .."
 
 To configure the database, run the `configure_db.sh` script.
 
-\```bash
+```bash
 ./configure_db.sh
-\```
+```
 
 ## Running the Project
 
 To run the project, you need to have a running instance of dump1090 with SBS output at port 30003. Once you have that, you can run the `flightlogger` executable:
 
-\```bash
+```bash
 ./flightlogger
-\```
+```
 
 This will start the flightlogger, which will process and store flight data from the running instance of dump1090.
 
